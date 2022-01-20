@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cadfb4a4-def0-4e95-95fd-6a2d7d353fac" name="Changes" comment="Change of Index to indexMrk">
-      <change beforePath="$PROJECT_DIR$/index.rmd" beforeDir="false" afterPath="$PROJECT_DIR$/index.rmd" afterDir="false" />
-    </list>
+    <list default="true" id="cadfb4a4-def0-4e95-95fd-6a2d7d353fac" name="Changes" comment="UdlapWebsite new page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,11 +21,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="23wSy3YBhLu4050NGgnzlp6gP3i" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -46,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642643908992</updated>
       <workItem from="1642643910962" duration="1460000" />
-      <workItem from="1642645397044" duration="1969000" />
+      <workItem from="1642645397044" duration="2716000" />
     </task>
     <task id="LOCAL-00001" summary="Its Time">
       <created>1642644360142</created>
@@ -118,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642647232904</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Change of Index to indexMrk">
+      <created>1642647417962</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1642647417962</updated>
+    </task>
+    <task id="LOCAL-00012" summary="UdlapWebsite new page">
+      <created>1642647669495</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1642647669495</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,10 +153,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Its Time" />
     <MESSAGE value="Use R" />
     <MESSAGE value="RMarkdownExample" />
     <MESSAGE value="Change of Index to indexMrk" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change of Index to indexMrk" />
+    <MESSAGE value="UdlapWebsite new page" />
+    <option name="LAST_COMMIT_MESSAGE" value="UdlapWebsite new page" />
   </component>
 </project>

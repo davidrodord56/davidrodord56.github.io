@@ -1,8 +1,14 @@
 ---
 title: "Erick David Rodriguez-Orduna site"
-output:
+output: html_notebook
 html_notebook: default
 ---
+
+[comment]: <> (title: "Erick David Rodriguez-Orduna site")
+
+[comment]: <> (output:)
+
+[comment]: <> (html_notebook: default)
 
 Hello and welcome to my website
 
