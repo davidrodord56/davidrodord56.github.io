@@ -30,6 +30,7 @@ I have experience coding in some programming languages:
 - MATLAB
 - Mosel from XPRESS
 - Verilog
+- Java
 
 
 
