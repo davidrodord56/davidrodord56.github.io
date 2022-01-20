@@ -6,7 +6,7 @@ html_notebook: default
 
 Hello and welcome to my website
 
-Here I will include my work as a PhD student @ [UDLAP](https://www.udlap.mx/web/)
+Here I will include my work as a PhD student @ [UDLAP](https://www.udlap.mx/web){target="_blank"}
 
 The code chunk appears:
 ```{r}
