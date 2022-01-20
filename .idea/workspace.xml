@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cadfb4a4-def0-4e95-95fd-6a2d7d353fac" name="Changes" comment="UdlapWebsite new page">
-      <change beforePath="$PROJECT_DIR$/index.nb.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.nb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.rmd" beforeDir="false" afterPath="$PROJECT_DIR$/index.rmd" afterDir="false" />
-    </list>
+    <list default="true" id="cadfb4a4-def0-4e95-95fd-6a2d7d353fac" name="Changes" comment="UdlapWebsite new page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642643908992</updated>
       <workItem from="1642643910962" duration="1460000" />
-      <workItem from="1642645397044" duration="3132000" />
+      <workItem from="1642645397044" duration="2716000" />
     </task>
     <task id="LOCAL-00001" summary="Its Time">
       <created>1642644360142</created>
@@ -137,14 +134,7 @@
       <option name="project" value="LOCAL" />
       <updated>1642647669495</updated>
     </task>
-    <task id="LOCAL-00013" summary="UdlapWebsite new page">
-      <created>1642648267496</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1642648267496</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
