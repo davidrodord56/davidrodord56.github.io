@@ -42,7 +42,8 @@ Another file in site [NB](/website.nb.html)
 
 
 The code chunk appears:
-```{r}
+```{r echo = FALSE}
+library(tweetrmd)
 ```
 
 Type any R code in the chunk, for example:
@@ -65,8 +66,6 @@ lines(x,y)
 plot(y,x)
 lines(y,x)
 ```
-
-```{r}
-
+```{r echo=FALSE}
+tweet_embed("https://twitter.com/David_Rod_Ord/status/1476025484492390402?cxt=HHwWhIC-qfPW8vsoAAAA")
 ```
-
