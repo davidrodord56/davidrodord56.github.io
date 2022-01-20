@@ -1,8 +1,9 @@
 ---
 title: "Erick David Rodriguez-Orduna, B.E.E."
 output:
-html_document:
-df_print: paged
+    html_document:
+        df_print: paged
+
 ---
 
 Hello and welcome to my website.
@@ -17,13 +18,19 @@ Since my Doctoral program is a Full-Time study I don't have enough time to devel
 
 I have experience coding in some programming languages:
 
-1. Experienced
-    -Python
-    -R
 
-2. Not that experienced
--C++
--SQL
+*Experienced:*
+
+- Python
+- R
+
+*Not that experienced:*
+
+- C++
+- SQL
+- MATLAB
+- Mosel from XPRESS
+- Verilog
 
 
 
@@ -59,4 +66,8 @@ lines(y,x)
 ```
 
 ```{r}
+
+```
+```{r}
+
 ```
