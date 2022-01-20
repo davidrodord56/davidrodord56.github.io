@@ -1,6 +1,7 @@
 ---
 title: "R Notebook"
-output: html_notebook
+output:
+html_notebook: default
 ---
 
 The [R plugin](https://www.jetbrains.com/help/pycharm/r-plugin-support.html) for IntelliJ-based IDEs provides
@@ -20,3 +21,18 @@ mycars
 
 Now, click the **Run** button on the chunk toolbar to [execute](https://www.jetbrains.com/help/pycharm/r-markdown.html#run-r-code) the chunk code. The result should be placed under the chunk.
 Click the **Knit and Open Document** to build and preview an output.
+
+
+```{r}
+x= c(1,2,3)
+y= c(2,2,2)
+plot(x,y)
+lines(x,y)
+```
+```{r}
+plot(y,x)
+lines(y,x)
+```
+
+```{r}
+```
