@@ -1,19 +1,37 @@
 ---
-title: "Erick David Rodriguez-Orduna site"
+title: "Erick David Rodriguez-Orduna, B.E.E."
 output:
-        html_document:
-                df_print: paged
+html_document:
+df_print: paged
 ---
 
-[comment]: <> (title: "Erick David Rodriguez-Orduna site")
+Hello and welcome to my website.
 
-[comment]: <> (output:)
+I'm Erick David Rodriguez-Orduna, Bachelor of Electronical Engineering from Universidad de las Americas Puebla [UDLAP](https://www.udlap.mx/web){target="_blank"}
 
-[comment]: <> (html_notebook: default)
+Currently I'm pursuing the Ph.D in Intelligent Systems from same institution.
 
-Hello and welcome to my website :D
+In this website I will include some my work as a PhD student, which can be related or not related to the Doctoral Thesis topic.
 
-Here I will include my work as a PhD student @[UDLAP](https://www.udlap.mx/web){target="_blank"}
+Since my Doctoral program is a Full-Time study I don't have enough time to develop another projects but I also have strong interest in Data-Science and Economical-Finance areas, therefore I will also upload some of that work too.
+
+I have experience coding in some programming languages:
+
+1. Experienced
+    -Python
+    -R
+
+2. Not that experienced
+-C++
+-SQL
+
+
+
+
+
+
+
+
 
 The code chunk appears:
 ```{r}
