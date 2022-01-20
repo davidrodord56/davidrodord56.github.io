@@ -1,7 +1,8 @@
 ---
 title: "Erick David Rodriguez-Orduna site"
 output:
-html_notebook: default
+        html_document:
+                df_print: paged
 ---
 
 [comment]: <> (title: "Erick David Rodriguez-Orduna site")
@@ -29,8 +30,8 @@ Click the **Knit and Open Document** to build and preview an output.
 
 
 ```{r}
-x= c(1,2,3)
-y= c(2,2,2)
+x= c(1,2,3,4)
+y= c(2,2,2,5)
 plot(x,y)
 lines(x,y)
 ```
