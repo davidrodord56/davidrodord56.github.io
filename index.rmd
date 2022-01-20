@@ -1,6 +1,6 @@
 ---
 title: "Erick David Rodriguez-Orduna site"
-output: html_notebook
+output:
 html_notebook: default
 ---
 
@@ -10,7 +10,7 @@ html_notebook: default
 
 [comment]: <> (html_notebook: default)
 
-Hello and welcome to my website
+Hello and welcome to my website :D
 
 Here I will include my work as a PhD student @[UDLAP](https://www.udlap.mx/web){target="_blank"}
 
