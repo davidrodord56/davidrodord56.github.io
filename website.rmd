@@ -24,3 +24,20 @@ Now, click the **Run** button on the chunk toolbar to [execute](https://www.jetb
 Click the **Knit and Open Document** to build and preview an output.
 
 What else you can do?
+```{r}
+x= c(1,2,3)
+y= c(2,2,2)
+plot(x,y)
+lines(x,y)
+```
+```{r}
+plot(y,x)
+lines(y,x)
+```
+
+```{r}
+```
+
+```{r}
+sessionInfo()
+```

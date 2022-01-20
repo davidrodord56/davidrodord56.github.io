@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cadfb4a4-def0-4e95-95fd-6a2d7d353fac" name="Changes" comment="Its Time">
-      <change afterPath="$PROJECT_DIR$/website.rmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="cadfb4a4-def0-4e95-95fd-6a2d7d353fac" name="Changes" comment="Use R">
+      <change beforePath="$PROJECT_DIR$/website.rmd" beforeDir="false" afterPath="$PROJECT_DIR$/website.rmd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1642643908992</updated>
       <workItem from="1642643910962" duration="1460000" />
-      <workItem from="1642645397044" duration="231000" />
+      <workItem from="1642645397044" duration="853000" />
     </task>
     <task id="LOCAL-00001" summary="Its Time">
       <created>1642644360142</created>
@@ -72,7 +69,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642644518432</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Its Time">
+      <created>1642645638802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642645638802</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Use R">
+      <created>1642645653970</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642645653970</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Its Time" />
-    <option name="LAST_COMMIT_MESSAGE" value="Its Time" />
+    <MESSAGE value="Use R" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use R" />
   </component>
 </project>
