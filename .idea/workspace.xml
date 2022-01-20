@@ -1,181 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="cadfb4a4-def0-4e95-95fd-6a2d7d353fac" name="Changes" comment="Changes to header" />
-=======
-    <list default="true" id="cadfb4a4-def0-4e95-95fd-6a2d7d353fac" name="Changes" comment="UdlapWebsite new page" />
->>>>>>> parent of eced643 (Changes to header)
+    <list default="true" id="595c96de-f498-4874-884f-b92b0ae26687" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/davidrodord56.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/davidrodord56.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.rmd" beforeDir="false" afterPath="$PROJECT_DIR$/index.rmd" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="RMarkdown.notebook" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="23wSy3YBhLu4050NGgnzlp6gP3i" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="23wt8RDQ0WedaYkFx4EPUxe7HJ0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cadfb4a4-def0-4e95-95fd-6a2d7d353fac" name="Changes" comment="" />
-      <created>1642643908992</created>
+      <changelist id="595c96de-f498-4874-884f-b92b0ae26687" name="Changes" comment="" />
+      <created>1642656819530</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1642643908992</updated>
-      <workItem from="1642643910962" duration="1460000" />
-      <workItem from="1642645397044" duration="2716000" />
+      <updated>1642656819530</updated>
+      <workItem from="1642656821598" duration="39000" />
+      <workItem from="1642656873639" duration="432000" />
     </task>
-    <task id="LOCAL-00001" summary="Its Time">
-      <created>1642644360142</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1642644360142</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Its Time">
-      <created>1642644480306</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1642644480306</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Its Time">
-      <created>1642644518432</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1642644518432</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Its Time">
-      <created>1642645638802</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1642645638802</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Use R">
-      <created>1642645653970</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1642645653970</updated>
-    </task>
-    <task id="LOCAL-00006" summary="RMarkdownExample">
-      <created>1642646527489</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1642646527489</updated>
-    </task>
-    <task id="LOCAL-00007" summary="RMarkdownExample">
-      <created>1642646766195</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1642646766195</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Change of Index to indexMrk">
-      <created>1642646994401</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1642646994401</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Change of Index to indexMrk">
-      <created>1642647036685</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1642647036685</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Change of Index to indexMrk">
-      <created>1642647232904</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1642647232904</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Change of Index to indexMrk">
-      <created>1642647417962</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1642647417962</updated>
-    </task>
-    <task id="LOCAL-00012" summary="UdlapWebsite new page">
-      <created>1642647669495</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1642647669495</updated>
-    </task>
-<<<<<<< HEAD
-    <task id="LOCAL-00013" summary="Changes to header">
-      <created>1642650850282</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1642650850282</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
-=======
-    <option name="localTasksCounter" value="13" />
->>>>>>> parent of eced643 (Changes to header)
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Its Time" />
-    <MESSAGE value="Use R" />
-    <MESSAGE value="RMarkdownExample" />
-    <MESSAGE value="Change of Index to indexMrk" />
-    <MESSAGE value="UdlapWebsite new page" />
-    <MESSAGE value="Changes to header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes to header" />
   </component>
 </project>
