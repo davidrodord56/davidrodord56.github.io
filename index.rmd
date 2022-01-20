@@ -12,9 +12,16 @@ html_notebook: default
 
 Hello and welcome to my website
 
-Here I will include my work as a PhD student @ [UDLAP](https://www.udlap.mx/web){target="_blank"}
+Here I will include my work as a PhD student @[UDLAP](https://www.udlap.mx/web){target="_blank"}
 
-The code chunk appears:
+
+Equation syntax  $A = \pi*r^{2}$
+
+This website was made using `blogdown` with [R Markdown](https://bookdown.org/yihui/blogdown){target="_blank"}
+
+
+---
+
 ```{r}
 ```
 
