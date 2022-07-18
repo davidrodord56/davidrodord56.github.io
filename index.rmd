@@ -33,44 +33,21 @@ I have experience coding in some programming languages:
 - Java
 - JS
 
+
+
+
+
+
+
+*Some of my Tutorials:*
+
+- Bitso API.  In the video below you can find a brief tutorial on how to get current BTC price from the API of [BITSO EXCHANGE](bitso.com){target="_blank"} it also considers a Volume-Weighted Average Price (VWAP) that gets the price depending on the volume of bids and asks.\n
+In spanish is PPP (Precio Promedio Ponderado) which is used by the Mexican Stock Exchange and that I considered as an accurate metric for real price of a stock.
+```{r echo = FALSE}
+library(tweetrmd)
+tweet_embed("https://twitter.com/David_Rod_Ord/status/1476025484492390402?cxt=HHwWhIC-qfPW8vsoAAAA")
+```
 Another file in site [NB](/website.nb.html)
 
 
-
-
-
-
-
-The code chunk appears:
-```{r echo = FALSE}
-library(tweetrmd)
-```
-
-Type any R code in the chunk, for example:
-```{r}
-mycars <- within(mtcars, { cyl <- ordered(cyl) })
-mycars
-```
-
-Now, click the **Run** button on the chunk toolbar to [execute](https://www.jetbrains.com/help/pycharm/r-markdown.html#run-r-code) the chunk code. The result should be placed under the chunk.
-Click the **Knit and Open Document** to build and preview an output.
-
-
-```{r}
-x= c(1,2,3,4)
-y= c(2,2,2,5)
-plot(x,y)
-lines(x,y)
-```
-```{r}
-plot(y,x)
-lines(y,x)
-```
-```{r echo=FALSE}
-tweet_embed("https://twitter.com/David_Rod_Ord/status/1476025484492390402?cxt=HHwWhIC-qfPW8vsoAAAA")
-```
-```
-```{r}
-print('Hello World')
-```
 
