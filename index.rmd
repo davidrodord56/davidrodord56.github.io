@@ -43,7 +43,7 @@ I have experience coding in some programming languages:
 
 - Bitso API.  In the video below you can find a brief tutorial on how to get current BTC price from the API of [BITSO EXCHANGE](bitso.com){target="_blank"} it also considers a Volume-Weighted Average Price (VWAP) that gets the price depending on the volume of bids and asks.\n
 In spanish is PPP (Precio Promedio Ponderado) which is used by the Mexican Stock Exchange and that I consider as an accurate metric for real price of a stock.
-- Fourier Summary: In this MATLAB notebook you can find some examples for
+- Fourier Summary ([Notebook](/FourierExamples.html): In this MATLAB notebook you can find some examples of fourier transform. With time varying frequencies, the notebook is based on the DSI6161 Wavelet Theory notes and activities from Graduate Course by [Dr. Vicente Alarcon](https://sites.google.com/site/vicentevialaq/)
 <br />
 ```{r echo = FALSE}
 library(tweetrmd)
