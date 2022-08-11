@@ -4,10 +4,24 @@
   <component name="RMarkdownSettings">
     <option name="renderProfiles">
       <map>
-        <entry key="file://$PROJECT_DIR$/index.rmd">
+        <entry key="file://$PROJECT_DIR$/content/about.md">
           <value>
             <RMarkdownRenderProfile>
-              <option name="lastOutput" value="$PROJECT_DIR$/index.html" />
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/content" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/content/about.rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="lastOutput" value="$PROJECT_DIR$/content/about.html" />
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/content" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/index.Rmd">
+          <value>
+            <RMarkdownRenderProfile>
               <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$" />
             </RMarkdownRenderProfile>
           </value>
