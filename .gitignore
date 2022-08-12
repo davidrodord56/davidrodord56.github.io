@@ -259,3 +259,4 @@ dmypy.json
 cython_debug/
 
 /blog_hugo/
+about_files/
