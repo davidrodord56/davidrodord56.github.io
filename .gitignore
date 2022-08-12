@@ -257,5 +257,3 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-
-/blog_hugo/
