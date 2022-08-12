@@ -16,5 +16,14 @@
       <description>In this file i recover some fundamentals on Fourier Transform</description>
     </item>
     
+    <item>
+      <title>Wavelet Fundamentals</title>
+      <link>/2022/08/11/waveletfundamentals/</link>
+      <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/2022/08/11/waveletfundamentals/</guid>
+      <description>This is a Notebook on the Wavelet Fundamentals</description>
+    </item>
+    
   </channel>
 </rss>

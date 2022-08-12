@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>Wavelet Fundamentals</title>
+      <link>/2022/08/11/waveletfundamentals/</link>
+      <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/2022/08/11/waveletfundamentals/</guid>
+      <description>This is a Notebook on the Wavelet Fundamentals</description>
+    </item>
+    
+    <item>
       <title>Hello R Markdown</title>
       <link>/2020/12/01/hello-r-markdown/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
@@ -48,6 +57,15 @@ I’m Erick David Rodriguez-Orduna, Bachelor of Electronical Engineering from Un
 Currently I’m pursuing the Ph.D in Intelligent Systems from same institution.
 In this website I will include some my work as a PhD student, which can be related or not related to the Doctoral Thesis topic.
 Since my Doctoral program is a Full-Time study I don’t have enough time to develop another projects but I also have strong interest in Data-Science and Economical-Finance areas, therefore I will also upload some of that work too.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description></description>
     </item>
     
   </channel>

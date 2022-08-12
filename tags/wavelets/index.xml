@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wavelets on Erick R-O</title>
+    <link>/tags/wavelets/</link>
+    <description>Recent content in Wavelets on Erick R-O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/wavelets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wavelet Fundamentals</title>
+      <link>/2022/08/11/waveletfundamentals/</link>
+      <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/2022/08/11/waveletfundamentals/</guid>
+      <description>This is a Notebook on the Wavelet Fundamentals</description>
+    </item>
+    
+  </channel>
+</rss>
