@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A Hugo website</title>
+    <title>Erick R-O</title>
     <link>/</link>
-    <description>Recent content on A Hugo website</description>
+    <description>Recent content on Erick R-O</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fourier Fundamentals</title>
+      <link>/2022/08/11/fourier-fundamentals/</link>
+      <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/2022/08/11/fourier-fundamentals/</guid>
+      <description>In this file i recover some fundamentals on Fourier Transform</description>
+    </item>
+    
     <item>
       <title>Hello R Markdown</title>
       <link>/2020/12/01/hello-r-markdown/</link>
@@ -29,12 +38,16 @@ You cannot run any R code in a plain Markdown document, whereas in an R Markdown
     </item>
     
     <item>
-      <title>Lorem Ipsum</title>
-      <link>/2015/01/01/lorem-ipsum/</link>
-      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
       
-      <guid>/2015/01/01/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <guid>/about/</guid>
+      <description>Hello and welcome to my website.
+I’m Erick David Rodriguez-Orduna, Bachelor of Electronical Engineering from Universidad de las Americas Puebla UDLAP
+Currently I’m pursuing the Ph.D in Intelligent Systems from same institution.
+In this website I will include some my work as a PhD student, which can be related or not related to the Doctoral Thesis topic.
+Since my Doctoral program is a Full-Time study I don’t have enough time to develop another projects but I also have strong interest in Data-Science and Economical-Finance areas, therefore I will also upload some of that work too.</description>
     </item>
     
   </channel>

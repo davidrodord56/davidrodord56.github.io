@@ -9,7 +9,7 @@ output:
 
 Hello and welcome to my website.
 
-I'm Erick David Rodriguez-Orduna, Bachelor of Electronical Engineering from Universidad de las Americas Puebla [UDLAP](https://www.udlap.mx/web){:target="_blank"}
+I'm Erick David Rodriguez-Orduna, Bachelor of Electronical Engineering from Universidad de las Americas Puebla [UDLAP](https://www.udlap.mx/web){target="_blank"}
 
 Currently I'm pursuing the Ph.D in Intelligent Systems from same institution.
 
