@@ -22,6 +22,11 @@
 
 
 
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
 <link rel="stylesheet" href="/css/fonts.css" media="all">
 <link rel="stylesheet" href="/css/main.css" media="all">
 
@@ -57,7 +62,7 @@
 
   <article class="article">
     
-    <span class="article-duration">1 min read</span>
+    <span class="article-duration">2 min read</span>
     
 
     <h1 class="article-title">Bitso API Example</h1>
@@ -68,14 +73,62 @@
 
     <div class="article-content">
       
+<script src="/2021/12/01/01-dec-2021-bitso-api-example/index_files/twitter-widget/widgets.js"></script>
 
 
-<p>Hello, in this note I’ll show how to get the Bitcoin price in the largest Mexican-Exchange which is <a href="www.Bitso.com">BITSO</a></p>
+<p>Hello, in this note I’ll show how to get the Bitcoin price in the largest Mexican-Exchange which is <a href="https://www.Bitso.com">BITSO</a>.</p>
 <p>A key concept is the Weighted Average Price (PPP - Precio Promedio Ponderado) this metric refers to the volume times price of bids and asks for a securitie, therefore if the WAP will be biased towards the price with the largest volumes of bids and asks, this will allow users to have a more realistic price of given security.</p>
-<p><span class="math display">\[\begin{array}{ccc}
-x_{11} &amp; x_{12} &amp; x_{13}\\
-x_{21} &amp; x_{22} &amp; x_{23}
-\end{array}\]</span></p>
+<p>Since the <a href="https://bitso.com/api_info">Bitso API</a> returns the 50 bids and asks at the query time we should use the Weighted Price to have a more accurate price.</p>
+<p>In the code below I used the following formula which is based on the WA</p>
+<p><span class="math display">\[
+BTC_{Ask} = \frac{\sum_{i = 0}^{50}(Ask Price_i \cdot AskVolume_i)}{\sum_{i=0}^{50}(AskVolume_i)}
+\\
+BTC_{Bid} = \frac{\sum_{i = 0}^{50}(BidPrice_i \cdot BidVolume_i)}{\sum_{i=0}^{50}(BidVolume_i)}
+\\
+BTC_{Price} = \frac{BTC_{Ask} + BTC_{Bid}}{2}
+\]</span></p>
+<p>The below code is Python-Based</p>
+<pre><code>def btc_value_mxn():
+    import time
+    import requests
+    import numpy as np
+    response = requests.get(&#39;https://api.bitso.com/v3/order_book/?book=btc_mxn&#39;)
+    json_response = response.json()
+    price_asks=[]
+    volume_asks=[]
+    price_bids=[]
+    volume_bids=[]
+
+    for i in range(0,50):
+
+        price_asks.append(float(json_response[&#39;payload&#39;][&#39;asks&#39;][i][&#39;price&#39;]))
+        price_bids.append(float(json_response[&#39;payload&#39;][&#39;bids&#39;][i][&#39;price&#39;]))
+
+        volume_asks.append(float(json_response[&#39;payload&#39;][&#39;asks&#39;][i][&#39;amount&#39;]))
+        volume_bids.append(float(json_response[&#39;payload&#39;][&#39;bids&#39;][i][&#39;amount&#39;]))
+
+
+    ppp_asks= np.sum((np.array(price_asks)*np.array(volume_asks)))/np.sum(volume_asks)
+
+    ppp_bids= np.sum((np.array(price_bids)*np.array(volume_bids)))/np.sum(volume_bids)
+
+
+
+    ppp_btc = (ppp_bids + ppp_asks )/ 2
+
+    print(&#39;El precio de BTC al&#39;, json_response[&#39;payload&#39;][&#39;updated_at&#39;],&#39;es de  ${:15,.2f} MXN&#39;.format(ppp_btc)  )
+    time.sleep(60)
+
+
+while True:
+    btc_value_mxn()</code></pre>
+<p>In this case the Code works with the book BTC_MXN but you can use all the Coins listed on Bitso Exchange including another currencies such as US-Dollars or Pesos-Argentinos.</p>
+<p>In the following Video I present how to use it:</p>
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="es" dir="ltr">Hoy inicia mi carrera de Youtuber jaja<br><br>Aqui pongo un script super easy de como obtener el precio de <a href="https://twitter.com/hashtag/Bitcoin?src=hash&amp;ref_src=twsrc%5Etfw">#Bitcoin</a> usando la API de <a href="https://twitter.com/Bitso?ref_src=twsrc%5Etfw">@Bitso</a> <a href="https://t.co/1fNzvvFkw4">https://t.co/1fNzvvFkw4</a><br><br>y ya de aqui a ver que sale en el futuro.</p>&mdash; Erick David Rodriguez-Orduna (@ErickRodOrd) <a href="https://twitter.com/ErickRodOrd/status/1476025484492390402?ref_src=twsrc%5Etfw">December 29, 2021</a></blockquote>
+
+<p>In future videos I will include how to perfom trades.</p>
+<p>See you next Time
+EDRO</p>
 
     </div>
   </article>
@@ -98,6 +151,18 @@ x_{21} &amp; x_{22} &amp; x_{23}
 
     </div>
     
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
 
     
 <script src="/js/math-code.js"></script>
