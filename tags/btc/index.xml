@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BTC on Erick R-O</title>
+    <link>/tags/btc/</link>
+    <description>Recent content in BTC on Erick R-O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/btc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bitso API Example</title>
+      <link>/2021/12/01/01-dec-2021-bitso-api-example/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/12/01/01-dec-2021-bitso-api-example/</guid>
+      <description>Hello, in this note I’ll show how to get the Bitcoin price in the largest Mexican-Exchange which is BITSO
+A key concept is the Weighted Average Price (PPP - Precio Promedio Ponderado) this metric refers to the volume times price of bids and asks for a securitie, therefore if the WAP will be biased towards the price with the largest volumes of bids and asks, this will allow users to have a more realistic price of given security.</description>
+    </item>
+    
+  </channel>
+</rss>
